@@ -1,0 +1,63 @@
+body
+{
+	background-image:url(D:/programming/image/p.jpg);
+	background-size:100% 100%;
+	animation:shubham 5s linear 10;
+	animation-fill-mode:forwords;
+	
+}
+@keyframes shubham
+{
+	from {background-position:0px 0px;} to {background-position:-180px;}
+}
+
+h1
+{
+	color:white;
+}
+#menu ul
+{
+	list-style:none;
+}
+#menu ul li
+{
+	background-color:red;
+	border:1px solid white;
+	width:120px;
+	height:35px;
+	text-align:center;
+	line-height:35px;
+	float:left;
+	border-radius:35px 0px 35px 0px;
+	position:relative;
+	margin:1px;
+	
+}
+#menu ul li a 
+{
+	text-decoration:none;
+	color:white;
+	display:block;
+	font-family:verdana;
+}
+#menu ul li a:hover
+{
+	background-color:green;
+	border-radius:35px 0px 35px 0px;
+}
+#menu ul ul 
+{
+	margin:0px;
+	padding:0px;
+	position:absolute;
+	display:none;
+}
+#menu ul li:hover > ul
+{
+	display:block;
+}
+#menu ul ul ul
+{
+	margin-left:120px;
+	top:0px;
+}
