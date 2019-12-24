@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>javascript</title>
+	</head>
+	<body>
+		<p id="myp">I am a Paragraph</p>
+		<p>Click the button to get the HTML content of p Element</p>
+		<button onClick="myFunction()">Try It</button>
+		<p id="demo"></p>
+		<script>
+			function myFunction()
+			{
+				var x=document.getElementById("myp").innerHTML;
+				document.getElementById("demo").innerHTML=x;
+			}
+		</script>
+	</body>
+</html>
